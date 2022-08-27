@@ -7,16 +7,16 @@
 # result = myrequest.status_code
 # print(result)
 
-# def w_name():
-#     counter = 5
-#     while counter > 0:
-#         my_file = open("names.txt", "a")
-#         my_file.write(input("Please enter a name:")+"\n")
-#         my_file.close()
-#         counter -= 1
-#
-#
-# w_name()
+def w_name():
+    counter = 5
+    while counter > 0:
+        my_file = open("names.txt", "a")
+        my_file.write(input("Please enter a name:")+"\n")
+        my_file.close()
+        counter -= 1
+
+
+w_name()
 
 
 # def hello_name():
