@@ -39,8 +39,8 @@ for line in my_file.readlines():
 my_file.close()
 
 # Challenge
-img = Image.new('RGB', (100, 100), color=(73, 109, 137))
+img = Image.new('RGB', (100, 100), color=(73, 109, 135))
 d = ImageDraw.Draw(img)
-d.text((20, 20), "Hello World", fill=(255, 255, 0))
+d.text((25, 25), "Hello World", fill=(255, 255, 0))
 img.save('pil_text.png')
 img.show()
